@@ -1,0 +1,6 @@
+def runningSum(self, nums: List[int]) -> List[int]:
+        sum = 0
+        for i,n in enumerate(nums):
+            sum += n 
+            nums[i] = sum
+        return nums
